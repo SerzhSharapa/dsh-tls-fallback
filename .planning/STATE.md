@@ -1,7 +1,7 @@
 # State
 
 Phase: 01 — standalone bundle and provider settings
-Status: implementation and documentation complete; final installation and release verification
+Status: complete — v0.1.0 released and installed
 
 ## Decisions
 
@@ -20,6 +20,15 @@ Status: implementation and documentation complete; final installation and releas
 - README skill drafts shown before writing all three variants; static badges, local links, command/diagram parity checked.
 - Release tarball contains 15 files, approximately 15 KB; no credentials, local runtime paths, tests, extracted host code or debug scripts.
 
-## Verification pending
+## Release acceptance
 
-Final archive activation, old-fix migration, real model call, GitHub commit/release and CI. Personal deployment diagnostics remain outside this public repository.
+- Public release: https://github.com/SerzhSharapa/dsh-tls-fallback/releases/tag/v0.1.0
+- CI passed on Node 22 and 24: https://github.com/SerzhSharapa/dsh-tls-fallback/actions/runs/37051147200
+- Final installed host/client files match the release build byte-for-byte. GitHub asset SHA-256 matches locally: `92ff7e7864f6527639661905311d3f756611600c665c21d2f67ff90b9269c85c` (15,302 bytes).
+- Final native Settings page includes the visible enable label, provider checkboxes and saved selection. Browser refresh preserves the selected provider and leaves the other provider unselected, without page errors.
+- Legacy local fallback disabled only after final package verification; new plugin active. Real GLM request after migration returned `TLS_PLUGIN_OK`.
+- Temporary verification plugin removed. Personal deployment diagnostics and authentication materials were not published.
+
+## Scope of verification
+
+No whole-application restart was performed during other active sessions. Persisted profile values, native GUI refresh and final package activation were verified. No claim of measured latency improvements or complete non-Node/WebSocket adapter coverage.
