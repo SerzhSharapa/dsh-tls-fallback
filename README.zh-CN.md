@@ -1,6 +1,6 @@
 <h1 align="center">DSH TLS Fallback</h1>
 
-<p align="center"><img src="./assets/readme-hero.svg" width="960" alt="具有可用备用路径的安全连接"></p>
+<p align="center"><img src="./assets/readme-hero-zh.svg" width="960" alt="具有可用备用路径的安全连接"></p>
 
 <p align="center">为 DeepSeek Harness 中选定的提供商提供 TLS 连接回退，无需固定 IP。</p>
 

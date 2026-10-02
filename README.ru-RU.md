@@ -1,6 +1,6 @@
 <h1 align="center">DSH TLS Fallback</h1>
 
-<p align="center"><img src="./assets/readme-hero.svg" width="960" alt="Защищённое соединение с доступным запасным маршрутом"></p>
+<p align="center"><img src="./assets/readme-hero-ru.svg" width="960" alt="Защищённое соединение с доступным запасным маршрутом"></p>
 
 <p align="center">Резервное TLS-подключение для выбранных провайдеров DeepSeek Harness — без закрепления IP.</p>
 
