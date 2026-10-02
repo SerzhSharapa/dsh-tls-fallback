@@ -12,7 +12,7 @@ test('all README variants have reciprocal languages, useful start and valid loca
     assert.doesNotMatch(text.split('## ')[1], /align="center"/);
     assert.doesNotMatch(text, /mermaid|star-history|\/Users\//i);
     for (const file of variants) assert.ok(text.includes(`href="./${file}"`));
-    for (const link of text.matchAll(/(?:href="|\]\()(\.\/[^"\s)]+)/g)) {
+    for (const link of text.matchAll(/(?:href="|src="|\]\()(\.\/[^"\s)]+)/g)) {
       assert.ok(existsSync(new URL(link[1], root)), `${variants[index]}: ${link[1]}`);
     }
   }

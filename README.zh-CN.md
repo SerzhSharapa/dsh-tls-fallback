@@ -1,5 +1,7 @@
 <h1 align="center">DSH TLS Fallback</h1>
 
+<p align="center"><img src="./assets/readme-hero.svg" width="960" alt="具有可用备用路径的安全连接"></p>
+
 <p align="center">为 DeepSeek Harness 中选定的提供商提供 TLS 连接回退，无需固定 IP。</p>
 
 <p align="center"><a href="./README.md">English</a> · <a href="./README.ru-RU.md">Русский</a> · <a href="./README.zh-CN.md">简体中文</a></p>
@@ -45,6 +47,10 @@
 3. 通过该提供商发送一条普通消息。
 
 更改会自动保存。默认不选择任何提供商，因此新安装不会改变请求路由。取消勾选或关闭开关后，后续请求将绕过本插件。
+
+![已选择 GLM 的 DSH 原生设置](./assets/settings.png)
+
+*真实的 DSH 俄语设置界面，已选择 GLM。截图已裁剪，并遮盖了自定义提供商名称。*
 
 ## 适用范围与限制
 

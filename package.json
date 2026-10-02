@@ -11,7 +11,7 @@
     "./cordis.patch.yml": "./cordis.patch.yml",
     "./locale/*.json": "./locale/*.json"
   },
-  "files": ["src/*.mjs", "dist/client.js", "cordis.patch.yml", "locale/*.json", "README*.md", "LICENSE"],
+  "files": ["src/*.mjs", "dist/client.js", "cordis.patch.yml", "locale/*.json", "README*.md", "assets/*.svg", "assets/*.png", "LICENSE"],
   "dsh": {
     "bundle": { "patch": "./cordis.patch.yml" },
     "client": {

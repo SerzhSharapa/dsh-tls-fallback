@@ -1,5 +1,7 @@
 <h1 align="center">DSH TLS Fallback</h1>
 
+<p align="center"><img src="./assets/readme-hero.svg" width="960" alt="Protected connection with an available fallback route"></p>
+
 <p align="center">Provider-selectable TLS connection fallback for DeepSeek Harness — without fixed IPs.</p>
 
 <p align="center"><a href="./README.md">English</a> · <a href="./README.ru-RU.md">Русский</a> · <a href="./README.zh-CN.md">简体中文</a></p>
@@ -45,6 +47,10 @@ Use the `.tgz` package, not GitHub's “Source code” archive. No npm-registry 
 3. Send a normal message through that provider.
 
 Changes save automatically. No providers are selected by default, so a fresh installation changes no traffic. Unselect a provider or turn off the switch to bypass this plugin for subsequent requests.
+
+![Native DSH settings with GLM selected](./assets/settings.png)
+
+*Actual DSH settings in Russian, with GLM selected. Cropped; the custom provider name is redacted.*
 
 ## Scope and limits
 
